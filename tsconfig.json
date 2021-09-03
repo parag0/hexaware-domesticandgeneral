@@ -3,7 +3,7 @@
     "target": "es5",
     "lib": ["es6"],
     "module": "commonjs",
-    "rootDir": "src",
+    "rootDirs": ["./src"],
     "resolveJsonModule": true,
     "allowJs": true,
     "outDir": "build",
@@ -12,5 +12,13 @@
     "strict": true,
     "noImplicitAny": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/tests/*.test.ts",
+    "src/tests",
+    "test",
+    "jest*"
+  ]
 }
