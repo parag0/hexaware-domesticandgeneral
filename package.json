@@ -1,0 +1,19 @@
+{
+  "name": "hexaware",
+  "version": "1.0.0",
+  "description": "Hexaware-domesticandgeneral typescript assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parag0/hexaware-domesticandgeneral.git"
+  },
+  "author": "Parag Jadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parag0/hexaware-domesticandgeneral/issues"
+  },
+  "homepage": "https://github.com/parag0/hexaware-domesticandgeneral#readme"
+}
