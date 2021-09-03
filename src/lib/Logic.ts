@@ -13,7 +13,7 @@ export default class Logic implements IArgument {
   }
 
   duplicateCharCount(): IOutput {
-    if (this.argument) {
+    if (this.argument.length > 0) {
       for (const char of this.argument) {
         this.output[char] = (this.output[char] || 0) + 1;
       }
